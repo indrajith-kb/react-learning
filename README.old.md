@@ -8,6 +8,21 @@ Prerequisites -You need to have nodejs installed on your machine. If you don’t
 #####. Then Run the following commands.
 
 npm install -g create-react-app
+
 create-react-app my-app
+
 cd my-app
+
 npm start
+
+
+
+##Something is already running on port 3000 ! why 
+
+Just make an .env file at root of your project and add this line,
+
+PORT=3002
+
+and type 
+
+npm start in cmd again.
